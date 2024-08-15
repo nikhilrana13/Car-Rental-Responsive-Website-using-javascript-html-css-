@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="icon" href="car-renting6899.jpg">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="card.css">
+      <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Cars Rent</title>
+</head>
+<body>
+    
+    
+    <div class="main">
+         <section class="section1">
+            <!-- navbar -->
+            <nav data-aos="fade-down">
+                <div class="logo">
+                    <h1>Cars <Span>Rent</Span></h1>
+                </div>
+                <ul class="links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Vehicles</a></li>
+                    <li><a href="#">Location</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+                <div class="signbtn">
+                    <a href="#">Sign In</a>
+                </div>
+                <div class="menu">
+                    <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+                </div>
+            </nav>
+            <!-- navbar end -->
+
+
+            <div class="content">
+                <div class="left-side">
+                    <h1 data-aos="fade-up"
+                    data-aos-duration="2000">Make Your Trip
+                        <br>
+                        Enjoyable
+                    </h1>
+                    <p data-aos="fade-up"
+                    data-aos-duration="2000">It's a never ending battle of making your cars better and also trying to be better yourself.</p>
+
+                </div>
+                
+                <div class="right-side" data-aos="fade-left">
+                    <h4>Find Your car</h4>
+                    <div class="findcar">
+                        <select name="location" id="location">
+                            <option value="">Where 2</option>
+                            <option value="location1">Location 1</option>
+                            <option value="location2">Location 2</option>
+                            <option value="location3">Location 3</option>
+                        </select>
+                    </div>
+                    <input type="text" placeholder="Dd-Mm-Yyyy" id="start-date" onfocus="(this.type='date')">
+                    <input type="text" placeholder="Dd-Mm-Yyyy" id="end-date" onfocus="(this.type='date')">
+                    <button type="button" id="find-now">Find Now</button>
+                </div>
+
+                </div>
+         </section>
+          <!-- section 2start  -->
+          <section class="section2">
+               <!-- swiper -->
+               <main>
+                <article id="Car-slider" data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+                    <p id="car-text"><span data-title="Ride In">Ride In </span> <span data-title="Style">Style</span></p>
+                    <img id="front_image" src="wallpaperflare.com_wallpaper.jpg" alt="Furiosa Front image">
+                </article>
+            </main>
+               </section>
+
+               <section class="section3">
+                  <div class="headings">
+                <div class="box"  data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+
+                    <h4>Best price guarantee</h4>
+                    <p>if you find a lower price, we’ll refund the difference</p>
+                </div>
+                <div class="box"  data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+
+                    <h4>No cancellation fees</h4>
+                    <p>Up to 2 days before collecting your vehicle</p>
+                </div>
+                <div class="box" data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                    <h4>No hidden extras to pay</h4>
+                    <p>Theft and damage cover included</p>
+                </div>
+               </div> 
+                 
+                <div class="image-box">
+                    <img src="pexels-pixabay-164634.jpg" alt="" data-aos="zoom-out-left">
+                </div>
+
+               </section>
+            
+               <section class="section4">
+                 <div class="head">
+                     <h1 data-aos="fade-down">Trusted by the leading brands of worlds</h1>
+                 </div>
+                 <div class="brands-imgs">
+                   <div class="imgs-box">
+                    <img src="7e33a853-group-7.png" alt="" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                    <img src="4265a80b-group-5.png" alt="" data-aos="fade-right" data-aos-offset="300"data-aos-easing="ease-in-sine">
+                    <img src="5ec65317-group-4.png" alt="" data-aos="fade-up">
+                    <img src="65737de1-group-8.png" alt=""data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                    <img src="8f5d458b-group-10.png" alt=""data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                   </div>
+                  <div class="imgs-box">
+                    <img src="03de9d2b-group-11.png" alt=""data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                    <img src="753a62fb-group-3.png" alt=""data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                    <img src="94c1bf5a-group-6.png" alt="" data-aos="fade-up">
+                    <img src="65737de1-group-8.png" alt="" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                    <img src="03de9d2b-group-11.png" alt=""data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
+ 
+
+                  </div>
+                  
+                
+
+
+                 </div>
+               </section>
+
+               <section class="section5">
+                <div class="left">
+                    <h1 data-aos="fade-up"
+                    data-aos-duration="2000">Enjoy your <br>
+                        holidays Get</h1>
+                        <span data-aos="fade-up"
+                        data-aos-duration="2000">lowest rental car
+                        </span>
+                        <p data-aos="fade-up"
+                        data-aos-duration="2000">Self-driving cars are the natural extension of active <br>
+                            safety and obviously something we should do.
+                            It's a <br> never ending battle of making your cars better and <br>
+                            also trying to be better yourself.</p>
+                </div>
+             
+                  
+                <div class="right">
+                    <div class="img-1">
+                        <img src="GCM1S2NWsAACJPP.jpeg" alt=""data-aos="fade-up"
+                        data-aos-duration="3000">
+                    </div>
+
+                    <div class="img-2">
+                        <img src="FnaEH64XoAANeqK.jpeg" alt=""data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
+                    </div>
+
+                </div>
+               </section>
+
+               <section class="section6">
+                <div class="head">
+                    <h1 data-aos="fade-right">Book your <Span data-aos="fade-left">Car today!</Span></h1>
+                </div>
+               <div class="input-box">
+
+               <form data-aos="fade-up" data-aos-duration="3000">
+                <select name="Brand" id="Brand">
+                    <option value="Brand">Select Brand</option>
+                    <option value="location1">Location 1</option>
+                    <option value="location2">Location 2</option>
+                    <option value="location3">Location 3</option>
+                </select>
+                <select name="Cars" id="Cars">
+                    <option value="Select Cars">Select cars</option>
+                    <option value="location1">Location 1</option>
+                    <option value="location2">Location 2</option>
+                    <option value="location3">Location 3</option>
+                </select>
+                <select name="Cars" id="Cars">
+                    <option value="Select Cars">Select Cars</option>
+                    <option value="location1">Location 1</option>
+                    <option value="location2">Location 2</option>
+                    <option value="location3">Location 3</option>
+                </select>
+                <select name="Cars" id="Rating">
+                    <option value="Rating">Rating</option>
+                    <option value="location1">Location 1</option>
+                    <option value="location2">Location 2</option>
+                    <option value="location3">Location 3</option>
+                </select>
+                <input type="submit" value="Search" id="submit-btn">
+
+
+               </form>
+
+
+
+               </div>
+               
+               <div class="hide-text">
+                <p>Your submission was successful</p>
+               </div>
+               </section>
+
+               <section class="section7">
+                <div class="carbook" data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+
+                </div>
+               </section>
+
+               <section class="section8">
+                <div class="head">
+                    <h1 data-aos="fade-down"data-aos-easing="linear"
+                    data-aos-duration="1500">Find Cars By <Span>Locations</Span></h1>
+                </div>
+               
+                    <div class="wrapper" data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">
+                        <div class="card">
+                          <img src="peakpx.jpg" alt="Mountain">
+                          <div class="info">
+                            <h1>London</h1>
+                            
+                          </div>
+                        </div>
+                      
+                        <div class="card">
+                          <img src="pexels-timea-kadar-860778-2214035.jpg" alt="Road">
+                          <div class="info">
+                            <h1>USA</h1>
+                
+                          </div>
+                        </div>
+                      
+                        <div class="card">
+                          <img src="andre-benz-PpsgIw3iWZ4-unsplash.jpg" alt="Protester">
+                          <div class="info">
+                            <h1>Canada</h1>
+                            
+                          </div>
+                        </div>
+                        <div class="card">
+                            <img src="amir-hosseini-bfXAvM1BiDQ-unsplash.jpg" alt="Road">
+                            <div class="info">
+                              <h1>UK</h1>
+                            </div>
+                          </div>
+                          
+
+                      </div>
+                      
+                    
+                
+               </section>
+
+               <section class="section9">
+                <div class="head">
+                    <h1 data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">Frequently Asked <span>Questions</span></h1>
+                </div>
+                <div class="questions-box" data-aos="fade-up"
+                data-aos-anchor-placement="top-center">>
+                    <div class="info-box"  onclick="showanswer1()">
+                        <div class="question" id="question1">
+                            <h5>Do I need a credit card?</h5>
+                            <div class="icons">
+                                <i class="fa-solid fa-arrow-down" id="down-arrow1"></i>
+                                <i class="fa-thin fa-arrow-right" id="right-arrow1"></i>
+                            </div>
+                           
+                        </div>
+
+                        <div class="answer" id="answer1">
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    </div>
+                </div>
+                <div class="info-box" onclick="showanswer2()" id="info-box2">
+                    <div class="question" id="question2">
+                        <h5>Can I cross border with my rental car?</h5>
+                        <div class="icons">
+                            <i class="fa-solid fa-arrow-down" id="down-arrow2"></i>
+                            <i class="fa-thin fa-arrow-right" id="right-arrow2"></i>
+                        </div>
+                        
+                    </div>
+
+                    <div class="answer" id="answer2">
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+                </div>
+                <div class="info-box" id="info-box3" onclick="showanswer3()">
+                    <div class="question" id="question3">
+                        <h5>Can I rent specific car model?</h5>
+                        <div class="icons">
+                            <i class="fa-solid fa-arrow-down" id="down-arrow3"></i>
+                            <i class="fa-thin fa-arrow-right" id="right-arrow3"></i>
+                        </div>
+                    </div>
+
+                    <div class="answer" id="answer3">
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+                </div>
+                <div class="info-box" id="info-box4" onclick="showanswer4()">
+                    <div class="question" id="question4">
+                        <h5>What is included in the rental charges?</h5>
+                        <div class="icons">
+                            <i class="fa-solid fa-arrow-down"id="down-arrow4"></i>
+                            <i class="fa-thin fa-arrow-right" id="right-arrow4"></i>
+                    </div>
+                    </div>
+
+                    <div class="answer" id="answer4">
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+                </div>
+                </div>
+                
+                <div class="book">
+                    <div class="texts">
+                       <h1 data-aos="fade-right">Book Your dream car ?</h1>
+                       <p data-aos="fade-right">It's a never ending battle of making your cars better <br>
+                        and also trying to be better yourself.</p>
+
+                    </div>
+
+                    <div class="btn">
+                        <button id="btn" data-aos="fade-left">Book Now</button>
+                    </div>
+                </div>
+
+               </section>
+
+               <!-- footer -->
+
+               <footer>
+                <hr>
+                <div class="main-content" data-aos="fade-up"
+                data-aos-anchor-placement="top-center">
+                    
+                    <div class="crd">
+                        <div class="logo">
+                            <h2>Cars <span>Rent</span></h2>
+                        </div>
+                        <p>It's a never ending battle of making <br>
+                            your cars better and also trying to <br>
+                            be better yourself.</p>
+                            
+                           <div id="links">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                           </div> 
+
+                    </div>
+
+
+                    <div class="crd">
+                        <h1>Account</h1>
+                        <a href="">Profile</a>
+                        <a href="">Settings</a>
+                        <a href="">Billing</a>
+                        <a href="">Notifications</a>
+                    </div>
+                    <div class="crd">
+                        <h1>About</h1>
+                        <a href="">Services</a>
+                        <a href="">Pricing</a>
+                        <a href="">Contact</a>
+                        <a href="">Careers</a>
+
+                    </div>
+                    <div class="crd">
+                        <h1>Company</h1>
+                        <a href="">Community</a>
+                        <a href="">Help Center</a>
+                        <a href="">Support</a>
+                    </div>
+                </div>
+                  
+              
+              <hr>
+              <p id="copyright">&copy; 2024 Cars Rent. All rights reserved.</p>
+
+               </footer>
+               
+    </div>
+
+      <!-- <!- animate js -->
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+    AOS.init({
+       offset: 200
+    });
+   </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
